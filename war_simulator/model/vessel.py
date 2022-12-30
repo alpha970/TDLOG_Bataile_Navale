@@ -1,15 +1,17 @@
 from math import sqrt
 
-from exceptions import DestroyedError, OutOfRangeError
-from weapon import Weapon
+from war_simulator.model.exceptions import DestroyedError, OutOfRangeError
+from war_simulator.model.weapon import Weapon
 
 
 class Vessel:
-    def __init__(self, x: float, y: float, z: float, hits: int,
-                 weapon: Weapon):
+    def __init__(self, id:int or None, x: float, y: float, z: float, hits: int or None,
+                 weapon: Weapon or None, type: str):
+        self.id = id
         self.coordinates = x, y, z
         self.hits_to_be_destroyed = hits
         self.weapon = weapon
+        self.type =type
 
     def go_to(self, x, y, z):
         if self.hits_to_be_destroyed == 0:

@@ -1,8 +1,8 @@
 from functools import reduce
 from typing import Optional
 
-from exceptions import OutOfRangeError
-from vessel import Vessel
+from war_simulator.model.exceptions import OutOfRangeError
+from war_simulator.model.vessel import Vessel
 
 
 class Battlefield:

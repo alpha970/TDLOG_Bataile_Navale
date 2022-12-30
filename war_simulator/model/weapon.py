@@ -1,4 +1,4 @@
-from exceptions import NoAmmunitionError
+from war_simulator.model.exceptions import NoAmmunitionError
 
 
 class Weapon:
