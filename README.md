@@ -1,2 +1,2 @@
 # # Ce repot est un projet académique. 
-Ce projet fait parti de l'enseignement des techniques de developpement logiciel à l'ECC. Il consiste à developper un de jeu de bataille navale avec python, où le joueur essaye  d'abattre tous vaisseaux advesaires pour pouvoir gangner
+Ce projet fait parti de l'enseignement des techniques de developpement logiciel à l'ECC. Il consiste à developper un de jeu de bataille navale avec python.
